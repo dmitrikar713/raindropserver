@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Тестовый сервер для raindrop13.ru",
   "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "node index.js"
   },
   "keywords": [],
   "author": "dmitrikar713",
